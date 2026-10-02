@@ -11,3 +11,14 @@
         text-shadow: 0 0 10px #32f332, 0 0 20px #a8dfe1;
     }
 }
+
+.titulo{
+    background-image: linear-gradient(to right, #95ff00, purple, #95ff00);
+    margin-bottom: 20px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.titulo:hover{
+    animation: acender 0.5s forwards;
+}
